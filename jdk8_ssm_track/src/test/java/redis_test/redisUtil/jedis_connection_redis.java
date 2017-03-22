@@ -1,4 +1,4 @@
-package redis_test;
+package redis_test.redisUtil;
 
 import redis.clients.jedis.Jedis;
 
