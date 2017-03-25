@@ -34,10 +34,11 @@
                 <tx:method name="*"/>
             </tx:attributes>
         </tx:advice>
-        <!--jdk无法代理的,换用cglib-->
+        <!--启动@aspectj的自动代理支持-->
         <aop:aspectj-autoproxy/>
-        <!--事务aop配置-->
+        <!--事务aop切面配置-->
         <aop:config>
+            <!--定义切点函数-->
             <aop:pointcut id="serviceMethods"
                           expression="execution(* com.shmily.service..*(..))"/>
             <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceMethods"/>

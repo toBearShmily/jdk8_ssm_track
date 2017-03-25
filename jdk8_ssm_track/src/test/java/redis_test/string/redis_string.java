@@ -68,7 +68,13 @@ public class redis_string {
 
         //System.out.println(set);
 
-        String result = jedis.type("3");
-        System.out.println(result);
+        //String result = jedis.type("3");
+        jedis.setex("timer",5,"isnull");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(jedis.get("timer"));
     }
 }
