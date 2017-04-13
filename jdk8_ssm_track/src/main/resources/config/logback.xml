@@ -7,10 +7,10 @@
     <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{sessionId}] %-5level [%thread] %logger{80} :%msg%n" />
 
     <appender name="ROOT_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${log.base}/solo-root.log</file>
+        <file>${log.base}/shmily-root.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>
-                ${log.base}/%d{yyyy-MM-dd}/spring-solo-%i.%d{yyyy-MM-dd}.log.gz
+                ${log.base}/%d{yyyy-MM-dd}/spring-shmily-%i.%d{yyyy-MM-dd}.log.gz
             </fileNamePattern>
             <TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <MaxFileSize>30MB</MaxFileSize>
@@ -39,7 +39,7 @@
     <logger name="org.springframework" level="info" />
 
     <!-- root级别控制 -->
-    <root level="error">
+    <root level="debug">
         <!-- 控制台输出 -->
         <appender-ref ref="STDOUT" />
         <appender-ref ref="ROOT_FILE" />

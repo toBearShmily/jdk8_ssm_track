@@ -23,6 +23,11 @@
       classpath*:config/activemq/activemq.xml;
     </param-value>
   </context-param>
+  <!-- 切换环境配置 -->
+  <context-param>
+    <param-name>spring.profiles.default</param-name>
+    <param-value>prd</param-value>
+  </context-param>
   <!--spring监听器-->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -35,19 +40,18 @@
   <!--编码过滤器-->
   <filter>
     <filter-name>encodingFilter</filter-name>
-    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-    <init-param>
+    <!--<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>-->
+    <filter-class>com.shmily.filter.CharacterFilter</filter-class>
+    <!--<init-param>
       <param-name>encoding</param-name>
       <param-value>UTF-8</param-value>
-    </init-param>
-    <init-param>
-      <param-name>forceEncoding</param-name>
-      <param-value>true</param-value>
-    </init-param>
+    </init-param>-->
   </filter>
   <filter-mapping>
     <filter-name>encodingFilter</filter-name>
-    <url-pattern>/</url-pattern>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
 
   <!--日志-->
@@ -62,6 +66,28 @@
     <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
 
+  <!--连接池启用Web监控统计功能start-->
+  <filter>
+    <filter-name>DruidWebStatFilter</filter-name>
+    <filter-class>com.alibaba.druid.support.http.WebStatFilter</filter-class>
+    <init-param>
+      <param-name> exclusions </param-name>
+      <param-value>*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>DruidWebStatFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>DruidStatView</servlet-name>
+    <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DruidStatView</servlet-name>
+    <url-pattern>/druid/*</url-pattern>
+  </servlet-mapping>
+  <!--连接池启用Web监控统计功能end-->
 
   <!--springmvc-->
   <servlet>

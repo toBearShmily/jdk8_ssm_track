@@ -28,8 +28,8 @@
                 success: function (data) {
                     console.log("dqwdqd:" + data);
                     var context = "";
-                    context += JSON.stringify(data);
-                    $('.two').html(context)
+                    //context += JSON.stringify(data);
+                    //$('.two').html(context)
                     $('.two').show();
                     $('.sub').show();
                 },
@@ -40,9 +40,24 @@
                 }
             })
 
-            $('#sub').click(function () {
-                $('fom').submit();
-            })
+            /*$('#sub').click(function () {
+                $.ajax({
+                    url: '',
+                    type: "POST",
+                    dataType: "json",
+                    data:{u : $('#fom').serialise},
+                    contentType : "application/json;charset=utf-8", //设置请求头信息
+                    success: function (data) {
+                        alert(JSON.stringify(data));
+                    },
+                    error: function (dat) {
+                        console.log(dat);
+                        var errorText = JSON.parse(dat);
+                        alert("系统异常" + errorText.data.msg);
+                    }
+                })
+                //$('fom').submit();
+            })*/
         });
 
     </script>
@@ -57,8 +72,11 @@
         <input name="password" id="password" type="text" value=""/>
         <input name="roleId" id="roleId" type="text" value=""/>
         <input name="sex" id="sex" type="text" value=""/>
-        <input type="submit" id="sub"/>
+       <%-- <input name="img" id="img" type="text" value=""/>
+        <input name="isProxy" id="isProxy" type="text" value=""/>--%>
+        <input type="submit" id="sub" value="haha"/>
     </form>
+
 </div>
 <div><a href="">文件操作!!!</a></div>
 </body>

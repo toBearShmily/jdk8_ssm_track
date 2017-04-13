@@ -2,6 +2,7 @@ package com.shmily.controller;
 
 import com.alibaba.druid.support.json.JSONUtils;
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.shmily.common.Constants;
 import com.shmily.common.Response;
 import com.shmily.common.ValidateJson;
@@ -31,8 +32,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("toLogin")
-    public ModelAndView toLogin(){
+    @RequestMapping(value = "toLogin" ,method = RequestMethod.GET)
+    public ModelAndView toLogin(@RequestParam("test") String test){
+        System.out.println("接收参数："+test);
         ModelAndView mv = new ModelAndView("login");
         
         return mv;
@@ -48,8 +50,9 @@ public class UserController {
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public Response save(@Valid User user ,BindingResult bindingResult){
+    public Response save(@Valid User user ,BindingResult bindingResult,HttpServletRequest req){
         Response response = new Response();
+        System.out.println(req.getParameter("nickName"));
         Map<String,String> map = ValidateJson.getJsonString(bindingResult);
         if(null != map){//校验参数失败
             response.failure(map);
