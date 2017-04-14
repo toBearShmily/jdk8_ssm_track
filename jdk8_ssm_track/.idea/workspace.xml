@@ -8,59 +8,593 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="b2e3a208-fdbc-49d1-9b1a-266e750b68f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_usc_jdbcdslog_1_0_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/abstractFactory/Button.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/abstractFactory/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/abstractFactory/ComboBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/abstractFactory/SkinFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/abstractFactory/TextField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/iterator/AbstaractObjectList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/iterator/AbstractIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/design_pattern/iterator/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/filter/CharacterFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/filter/EncodeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/util/ReturnListGB2Map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/spring-env.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/env/configurations-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/env/configurations-prd.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/List2Map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/User.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/Arrays_demo/Bubble_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/Arrays_demo/binary_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/annotation/Prams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/annotation/Wxb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/annotation/WxbTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Single_example.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/AdditionStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/EnvironmentalStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/Strategy_test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/divisionStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/multiplicaStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/Strategy/subtracStratrgy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/dynamic_proxy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/dynamic_proxy/DynamicSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/dynamic_proxy/RealSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/dynamic_proxy/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/proxy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/proxy/ProxySubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/proxy/RealSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/design_pattern/proxy/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/set/Fast_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/set/MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/set/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/set/TreeSet_demo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/M.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/N.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/Producer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/Receiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/activemqTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/activemqTest1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activeMq/activemqTopic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activemq_service/ProducterService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activemq_service/impl/ProducterServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/activemq_service/impl/ProducterServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/common/activeMqCommon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/ma_listener/ConsumerMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/sample/ma_listener/ConsumerSessionAwareMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/common/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/common/Response$Meta.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/common/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/common/ValidateJson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/controller/CurrencyController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/filter/CorsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/filter/LoggingProcessFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/mapper/UserMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/support/CustomObjectMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/support/ExceptionAdvice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/util/Base64ToImg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/util/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/util/DesUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/util/Files_Helper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shmily/util/SessionUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/activemq/activemq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/activemq/activemq_consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/activemq/activemq_producer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/mybatis/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/mybatis/oracle-jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/redis/redis.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/redis/spring-redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring-mybatis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring-trascation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/msg/spring-validator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/msg/validationMessages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/Arrays_demo/Bubble_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/Arrays_demo/binary_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/annotation/Prams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/annotation/Wxb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/annotation/WxbTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Single_example.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/AdditionStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/EnvironmentalStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/Strategy_test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/divisionStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/multiplicaStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/Strategy/subtracStratrgy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/dynamic_proxy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/dynamic_proxy/DynamicSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/dynamic_proxy/RealSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/dynamic_proxy/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/proxy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/proxy/ProxySubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/proxy/RealSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/design_pattern/proxy/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/set/Fast_sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/set/MyComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/set/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/example/set/TreeSet_demo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/M.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/N.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/Producer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/Receiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/activemqTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/activemqTest1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activeMq/activemqTopic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activemq_service/ProducterService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activemq_service/impl/ProducterServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/activemq_service/impl/ProducterServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/common/activeMqCommon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/ma_listener/ConsumerMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/sample/ma_listener/ConsumerSessionAwareMessageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/common/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/common/Response$Meta.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/common/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/common/ValidateJson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/controller/CurrencyController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/filter/CorsFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/filter/LoggingProcessFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/mapper/UserMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/support/CustomObjectMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/support/ExceptionAdvice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/util/Base64ToImg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/util/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/util/DesUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/util/Files_Helper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/util/SessionUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/activemq/activemq.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/activemq/activemq_consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/activemq/activemq_producer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/mybatis/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/mybatis/oracle-jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/redis/spring-redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-trascation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/msg/spring-validator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/msg/validationMessages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/activemq-all-5.14.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/aspectjrt-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/cglib-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/classmate-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/druid-1.0.18.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/el-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/fastjson-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jackson-annotations-2.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jackson-core-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jackson-databind-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/javax.el-2.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/javax.el-api-2.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/logback-classic-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/logback-core-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/logback-ext-spring-0.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/mybatis-spring-1.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/mysql-connector-java-5.1.37.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-aop-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-beans-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-context-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-context-support-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-core-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-data-commons-1.11.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-data-jpa-1.9.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-expression-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-jdbc-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-jms-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-messaging-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-orm-4.1.9.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-oxm-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-test-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-tx-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-web-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/xbean-spring-3.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/FileUpload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/upload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/error_fileupload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/file_manager/Download/ChMkJlfI162IeK07AAY_egKaTWoAAU6qQHhDUcABj-S342.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/file_manager/Download/捷蓝12.8日考勤.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/bootstrap.min14ed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/demo/webuploader-demo.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/font-awesome.min93e3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/login.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/patterns/shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/play-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/play-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/video-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/blueimp/img/video-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/bootstrap-table/bootstrap-table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/chosen/chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/chosen/chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/clockpicker/clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/codemirror/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/cropper/cropper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/datapicker/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/dropzone/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/dropzone/dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/fonts/footable.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/fonts/footable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/fonts/footable.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/fonts/footable.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/fonts/footabled41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/footable/footable.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/iCheck/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/iCheck/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/iCheck/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/images/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/images/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/images/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/images/spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/images/spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/jqgrid/ui.jqgridffe4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/jsTree/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/markdown/bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/plyr/plyr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/plyr/sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/simditor/simditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/steps/jquery.steps.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/summernote/summernote-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/summernote/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/sweetalert/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/switchery/switchery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/toastr/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/treeview/bootstrap-treeview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/plugins/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/css/style.min862f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfont93e3.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfont93e3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfont93e3.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfont93e3.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfont93e3.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/fontawesome-webfontd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/iconfont-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/index.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/index_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/loading-upload.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/locked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/login-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p_big1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p_big2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/p_big3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/pay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/profile_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/profile_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/qr_code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/img/wenku_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/ajaxfileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/contabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/content.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/bootstrap-table-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/echarts-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/flot-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/form-advanced-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/form-validate-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/layer-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/morris-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/peity-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/rickshaw-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/sparkline-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/treeview-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/demo/webuploader-demo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/hplus.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/jquery-ui-1.10.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/diff_match_patch/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/echarts/echarts-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/gritter/images/gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/gritter/images/gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jqgrid/i18n/grid.locale-cnffe4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jqgrid/jquery.jqGrid.minffe4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/extend/layer.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/layDate官网.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/need/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/molv/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/laydate/skins/molv/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate-v1.1/更新日志.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/need/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/dahong/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/dahong/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/molv/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/laydate/skins/molv/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/layer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/layim/layim.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/layim/layim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/layim/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/skin/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/skin/layer.ext.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/layer/skin/moon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/markdown/to-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/plyr/plyr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/simditor/hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/simditor/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/simditor/simditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/simditor/uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/validate/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/validate/messages_zh.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/webuploader/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/js/welcome.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/plugins/fullavatareditor/scripts/fullAvatarEditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/plugins/fullavatareditor/scripts/jQuery.Cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/plugins/fullavatareditor/scripts/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/plugins/fullavatareditor/scripts/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/GET" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/agile_board.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/article.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/badges_labels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/basic_gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/blueimp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/chat_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/clients.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/code_editor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/css_animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/diff.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/draggable_panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/empty_page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/file_manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/fontawesome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_advanced.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_avatar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_builder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_editors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_file_upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_simditor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_validate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_webuploader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/form_wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/forum_main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/forum_post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/glyphicons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_echarts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_flot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_metrics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_morris.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_peity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_rickshaw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/graph_sparkline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/grid_options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/iconfont.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v148b2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/index_v5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/invoice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/invoice_print.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/javascript;.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/jstree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/layer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/layerdate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/layouts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/lockscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/login_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/mail_compose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/mail_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/mailbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/modal_window.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/nestable_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/pin_board.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/plyr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/project_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/projects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/search_results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/social_feed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/spinners.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/suggest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/sweetalert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/table_basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/table_bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/table_data_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/table_foo_table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/table_jqgrid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/tabs_panels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/teams_board.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/timeline_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/toastr_notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/tree_view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/tree_view_v2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/typography.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/validation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/webim.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/resources/view/widgets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/avtivema_test/ProducterAndConsumerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/example_test/ForDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/example_test/SingleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/example_test/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/reflect/fsTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/Test.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p_big3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/profile_big.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/profile_big.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shmily/filter/EncodeFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/filter/EncodeFilter.java" />
+    </list>
+    <list id="f995ad6a-babc-400e-9d4f-c906bf7cae27" name="New changelist" comment="字符编码">
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/lib/slf4j-api-1.7.13.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shmily/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/shmily/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shmily/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/shmily/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/controller/UserController.class" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/model/User.class" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/com/shmily/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/example_test/SingleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/example_test/SingleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/example_test/Singleton.class" afterPath="$PROJECT_DIR$/target/test-classes/example_test/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/Test.class" afterPath="$PROJECT_DIR$/target/test-classes/test/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jdk8_ssm_track_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jdk8_ssm_track_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jdk8_ssm_track.iml" afterPath="$PROJECT_DIR$/jdk8_ssm_track.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shmily/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shmily/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shmily/support/aop/ExceptionInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shmily/support/aop/ExceptionInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/spring-trascation.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/spring-trascation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/example_test/SingleTest.java" afterPath="$PROJECT_DIR$/src/test/java/example_test/SingleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/Test.java" afterPath="$PROJECT_DIR$/src/test/java/test/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/logback.xml" afterPath="$PROJECT_DIR$/target/classes/config/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring-trascation.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-trascation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/logback.xml" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-trascation.xml" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/spring-trascation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/springmvc.xml" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/classes/config/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/login.jsp" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/view/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/jdk8_ssm_track/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
     </list>
     <ignored path="jdk8_ssm_track.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +636,7 @@
       <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="1750">
               <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <marker date="1492062407421" expanded="false" signature="1600:1614" ph="com.mysql.jdbc.Driver" />
@@ -117,7 +651,7 @@
       <file leaf-file-name="spring-env.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/spring-env.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="1650">
               <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding />
             </state>
@@ -127,8 +661,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            <state relative-caret-position="116">
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -137,8 +671,8 @@
       <file leaf-file-name="EncodeFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/filter/EncodeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+            <state relative-caret-position="314">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +683,8 @@
       <file leaf-file-name="CharacterFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/filter/CharacterFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="58" selection-end-column="58" />
+            <state relative-caret-position="391">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -159,9 +693,11 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="450">
               <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +705,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="3300">
               <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
               <folding />
             </state>
@@ -179,7 +715,7 @@
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="475">
               <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
@@ -189,7 +725,7 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
+            <state relative-caret-position="1850">
               <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
               <folding />
             </state>
@@ -373,8 +909,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -384,8 +918,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk8_ssm_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1076,6 +1702,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b2e3a208-fdbc-49d1-9b1a-266e750b68f1" name="Default" comment="" />
+      <changelist id="f995ad6a-babc-400e-9d4f-c906bf7cae27" name="New changelist" comment="字符编码" />
       <created>1482816770734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1161,7 +1788,8 @@
       <workItem from="1491897479205" duration="2616000" />
       <workItem from="1491958972539" duration="270000" />
       <workItem from="1491959301971" duration="4746000" />
-      <workItem from="1492044252563" duration="17997000" />
+      <workItem from="1492044252563" duration="18310000" />
+      <workItem from="1492130517965" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="redis测试用例">
       <created>1490176007014</created>
@@ -1177,7 +1805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490435612785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="编码过滤器">
+      <created>1492077658786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492077658786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1213,7 +1848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="651247000" />
+    <option name="totallyTimeSpent" value="653101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1242,22 +1877,22 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879376" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2032258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19032258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22762646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37451363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1306,7 +1941,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redis测试用例" />
     <MESSAGE value="增加微信部分功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加微信部分功能" />
+    <MESSAGE value="编码过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="编码过滤器" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1467,21 +2104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="43" column="34" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#573#574#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#944#945#0" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,20 +2111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1395#1396#0" expanded="false" />
-            <element signature="e#1440#1441#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1540#1541#0" expanded="false" />
-            <element signature="e#1584#1585#0" expanded="false" />
-            <element signature="e#1637#1638#0" expanded="false" />
-            <element signature="e#1681#1682#0" expanded="false" />
-            <element signature="e#1724#1725#0" expanded="false" />
-            <element signature="e#1758#1759#0" expanded="false" />
-            <element signature="e#1817#1818#0" expanded="false" />
-            <element signature="e#1863#1864#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,9 +2118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1548,7 +2153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1556,7 +2160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,7 +2167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1572,7 +2174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="48" column="38" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,7 +2181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,7 +2196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,7 +2211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,13 +2226,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="1750">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <marker date="1492062407421" expanded="false" signature="1600:1614" ph="com.mysql.jdbc.Driver" />
@@ -1647,7 +2244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="3300">
           <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
           <folding />
         </state>
@@ -1657,7 +2254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,7 +2261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,13 +2268,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/spring-env.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="1650">
           <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding />
         </state>
@@ -1687,7 +2281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="475">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
@@ -1695,7 +2289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
+        <state relative-caret-position="1850">
           <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
           <folding />
         </state>
@@ -1703,9 +2297,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="450">
           <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1713,7 +2309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1721,30 +2316,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="57" column="27" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="116">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/filter/CharacterFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="58" selection-end-column="58" />
+        <state relative-caret-position="391">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shmily/filter/EncodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+        <state relative-caret-position="314">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

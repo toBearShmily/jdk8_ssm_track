@@ -59,7 +59,7 @@ public class EncodeFilter implements Filter {
 
             return super.getParameter(name);
         }
-        @Override
+        /*@Override
         public String[] getParameterValues(String name){
             String[] str = null;
             str = ((HttpServletRequest)this.getRequest()).getParameterValues(name);
@@ -69,7 +69,7 @@ public class EncodeFilter implements Filter {
                 }
             }
             return str;
-        }
+        }*/
 
     }
     //实现转码
