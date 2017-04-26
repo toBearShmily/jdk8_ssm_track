@@ -67,7 +67,7 @@
 <input type="text" value="1" class="aa"/>
 <div class="two" style="width: 200px;height: 200px;background-color: #6fd1bd; display: none;"></div>
 <div class="sub" style="width: 200px;height: 200px;background-color: #6fd1bd; display: none;">
-    <form name="fom" id="fom" method="post" action="${ctx}/save">
+    <form name="fom" id="fom" method="POST" action="${ctx}/save">
         <input name="nickName" id="nickName" type="text" value=""/>
         <input name="password" id="password" type="text" value=""/>
         <input name="roleId" id="roleId" type="text" value=""/>

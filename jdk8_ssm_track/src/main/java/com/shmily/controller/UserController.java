@@ -33,8 +33,8 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping(value = "toLogin" ,method = RequestMethod.GET)
-    public ModelAndView toLogin(@RequestParam("test") String test){
-        System.out.println("接收参数："+test);
+    public ModelAndView toLogin(@RequestParam("test") String test,HttpServletRequest req){
+        System.out.println("接收参数："+test+"getParamster获取"+req.getParameter("test"));
         ModelAndView mv = new ModelAndView("login");
         
         return mv;
@@ -52,7 +52,7 @@ public class UserController {
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public Response save(@Valid User user ,BindingResult bindingResult,HttpServletRequest req){
         Response response = new Response();
-        System.out.println(req.getParameter("nickName"));
+        System.out.println(user.getNickName());
         Map<String,String> map = ValidateJson.getJsonString(bindingResult);
         if(null != map){//校验参数失败
             response.failure(map);
