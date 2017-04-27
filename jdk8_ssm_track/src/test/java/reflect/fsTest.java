@@ -5,6 +5,7 @@ import jdk.internal.org.objectweb.asm.commons.Method;
 import org.apache.commons.collections4.keyvalue.DefaultMapEntry;
 import org.springframework.cglib.beans.BeanMap;
 
+import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,12 +14,12 @@ import java.util.Map;
  */
 public class fsTest {
     public static void main(String arg[]){
-        try {
+        /*try {
             Class<?> cls = Class.forName("com.shmily.model.User");
 
-            /*DefaultMapEntry a = new DefaultMapEntry("aaa", "111");
+            *//*DefaultMapEntry a = new DefaultMapEntry("aaa", "111");
             a.setValue("222");
-            System.out.println(a.getValue()+"-------------------"+a.getKey());*/
+            System.out.println(a.getValue()+"-------------------"+a.getKey());*//*
 
 
             BeanMap beanMap = BeanMap.create(new User());
@@ -30,6 +31,20 @@ public class fsTest {
 
 
 
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }*/
+    }
+
+
+    public void testFileds() {
+        try {
+            Class classType = Class.forName("com.shmily.controller.WeixinController");
+
+            Field[] fields = classType.getDeclaredFields();
+
+            System.out.println(fields.toString());
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
