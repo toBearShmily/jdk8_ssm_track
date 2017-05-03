@@ -1,24 +1,18 @@
 package com.shmily.model;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
-import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
-
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
-import java.util.Enumeration;
 
 
 public class User implements Serializable{
     private Integer id;
 
-    @Pattern(regexp="^[^><&#]{4,50}$",message="${username.pattern}")
-    @NotNull(message="${username.not.empty}")
+    @Pattern(regexp="^[^><&#]{4,50}$",message="{username.pattern}")
+    @NotEmpty(message="{username.not.empty}")
     private String nickName;
 
-    @NotNull(message = "${password.not.null}")
+    @NotEmpty(message = "{password.not.null}")
     private String password;
 
     private Integer roleId;

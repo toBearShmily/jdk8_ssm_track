@@ -14,7 +14,6 @@
     </context:component-scan>
     <import resource="classpath:config/spring/spring-mybatis.xml"/>
     <import resource="classpath:config/spring/spring-trascation.xml"/>
-    <import resource="classpath:msg/spring-validator.xml"/>
     <import resource="classpath:config/activemq/activemq.xml"/>
     <import resource="classpath:config/activemq/activemq_producer.xml"/>
     <import resource="classpath:config/activemq/activemq_consumer.xml"/>

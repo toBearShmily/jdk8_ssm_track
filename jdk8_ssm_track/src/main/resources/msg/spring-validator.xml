@@ -11,7 +11,7 @@
         <property name="fallbackToSystemLocale" value="false" />
         <!-- 不抛出NoSuchMessageException, 使用messageKey作为返回值 -->
         <property name="useCodeAsDefaultMessage" value="true" />
-        <property name="basenames" value="msg.validationMessages"/>
+        <property name="basenames" value="classpath:msg/validatemessages"/>
            <!-- <list>
                 <value>msg.validationMessages</value>
             </list>
@@ -30,7 +30,7 @@
              都只返回解析到的第一个，其余再返回，如果为false则返回所有验证失败项 -->
         <property name="validationPropertyMap">
             <map>
-                <entry key="hibernate.validator.fail_fast" value="true"/>
+                <entry key="hibernate.validator.fail_fast" value="false"/>
             </map>
         </property>
     </bean>

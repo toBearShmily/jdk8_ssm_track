@@ -21,10 +21,9 @@ public class ValidateJson {
         Map<String,String> map = new HashMap<>();
         if(bindingResult.hasErrors()){
             List<ObjectError> allErrors = bindingResult.getAllErrors();
-            for(ObjectError error : allErrors){
-                map.put("info",error.getDefaultMessage());
-                map.put("type",error.getCode());
-                logger.info(Constants.REQUEST_MSG,error.getDefaultMessage());
+            for(int i = 0 ; i < allErrors.size() ; i++){
+                map.put("info"+i,allErrors.get(i).getDefaultMessage());
+                logger.info(Constants.REQUEST_MSG,allErrors.get(i).getDefaultMessage());
             }
         }else
             return null;

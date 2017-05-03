@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -53,7 +54,7 @@ public class UserController {
         Map<String,String> map = ValidateJson.getJsonString(bindingResult);
         if(null != map){//校验参数失败
             response.failure(map);
-            log.error("参数校验失败,失败信息："+map.get("info"));
+            log.error("参数校验失败,失败信息："+map.get("info0"));
         }else{
             int result = userService.saveUser(user);
             String result_66 = "";

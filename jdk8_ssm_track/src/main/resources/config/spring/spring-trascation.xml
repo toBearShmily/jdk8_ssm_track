@@ -11,8 +11,8 @@
                             http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
 
-        <!--启用对事务注解的支持-->
-        <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!--启用对事务注解的支持-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
     <!--事务管理-通知-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
