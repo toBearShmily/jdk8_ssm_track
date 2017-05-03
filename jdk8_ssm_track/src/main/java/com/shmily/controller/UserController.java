@@ -1,9 +1,6 @@
 package com.shmily.controller;
 
-import com.alibaba.druid.support.json.JSONUtils;
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import com.shmily.common.Constants;
 import com.shmily.common.Response;
 import com.shmily.common.ValidateJson;
 import com.shmily.model.User;

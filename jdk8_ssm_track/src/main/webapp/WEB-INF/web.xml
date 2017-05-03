@@ -4,6 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+  <!--日志监听-->
+  <listener>
+    <listener-class>com.shmily.filter.LogbackConfigListener</listener-class>
+  </listener>
   <!-- 浏览器不支持put,delete等method,由该filter将/xxx?_method=delete转换为标准的http delete方法 -->
   <filter>
     <filter-name>hiddenHttpMethodFilter</filter-name>
@@ -23,11 +27,13 @@
       classpath*:config/activemq/activemq.xml;
     </param-value>
   </context-param>
+
   <!-- 切换环境配置 -->
   <context-param>
     <param-name>spring.profiles.default</param-name>
     <param-value>dev</param-value>
   </context-param>
+
   <!--spring监听器-->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -50,16 +56,13 @@
     <dispatcher>FORWARD</dispatcher>-->
   </filter-mapping>
 
-  <!--日志-->
   <filter>
-    <filter-name>loggingFilter</filter-name>
-    <filter-class>com.shmily.filter.LoggingProcessFilter</filter-class>
+    <filter-name>coreFilter</filter-name>
+    <filter-class>com.shmily.filter.CorsFilter</filter-class>
   </filter>
   <filter-mapping>
-    <filter-name>loggingFilter</filter-name>
+    <filter-name>coreFilter</filter-name>
     <url-pattern>/*</url-pattern>
-    <dispatcher>REQUEST</dispatcher>
-    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
 
   <!--连接池启用Web监控统计功能start-->

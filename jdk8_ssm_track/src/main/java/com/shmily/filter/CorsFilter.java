@@ -1,13 +1,9 @@
 package com.shmily.filter;
 
-import org.apache.commons.collections4.CollectionUtils;
-import org.apache.commons.lang3.StringUtils;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by Administrator on 2017/1/20.
@@ -24,19 +20,8 @@ public class CorsFilter implements Filter {
     为了解决跨多个域的问题，需要在代码中做一些处理，这里将Filter初始化参数作为一个域名的集合（用逗号分隔），只需从当前请求中获取Origin请求头，
     就知道是从哪个域中发出的请求，若该请求在以上允许的域名集合中，则将其放入Access-Control-Allow-Origin响应头，这样跨多个域的问题就轻松解决了*/
 
-    private String allowOrigin;
-    private String allowMethods;
-    private String allowCredentials;
-    private String allowHeaders;
-    private String exposeHeaders;
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        allowOrigin = filterConfig.getInitParameter("allowOrigin");
-        allowMethods = filterConfig.getInitParameter("allowMethods");
-        allowCredentials = filterConfig.getInitParameter("allowCredentials");
-        allowHeaders = filterConfig.getInitParameter("allowHeaders");
-        exposeHeaders = filterConfig.getInitParameter("exposeHeaders");
     }
 
 
@@ -44,28 +29,14 @@ public class CorsFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) res;
-        if (StringUtils.isNotEmpty(allowOrigin)) {
-            List<String> allowOriginList = Arrays.asList(allowOrigin.split(","));
-            if (CollectionUtils.isNotEmpty(allowOriginList)) {
-                String currentOrigin = request.getHeader("Origin");
-                if (allowOriginList.contains(currentOrigin)) {
-                    response.setHeader("Access-Control-Allow-Origin", currentOrigin);
-                }
-            }
-        }
-        if (StringUtils.isNotEmpty(allowMethods)) {
-            response.setHeader("Access-Control-Allow-Methods", allowMethods);
-        }
-        if (StringUtils.isNotEmpty(allowCredentials)) {
-            response.setHeader("Access-Control-Allow-Credentials", allowCredentials);
-        }
-        if (StringUtils.isNotEmpty(allowHeaders)) {
-            response.setHeader("Access-Control-Allow-Headers", allowHeaders);
-        }
-        if (StringUtils.isNotEmpty(exposeHeaders)) {
-            response.setHeader("Access-Control-Expose-Headers", exposeHeaders);
-        }
+
+        response.setCharacterEncoding("utf-8");
+        response.setContentType("application/json;charset=utf-8");
+        response.setHeader( "Access-Control-Allow-Origin", request.getHeader("Origin") );
+        response.addHeader( "Access-Control-Allow-Credentials", "true" );
+        response.setHeader( "Access-Control-Allow-Methods", "POST,GET,PUT,OPTIONS" );
         chain.doFilter(req, res);
+
     }
 
     @Override
