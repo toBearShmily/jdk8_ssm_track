@@ -4,7 +4,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
-
 public class User implements Serializable{
     private Integer id;
 

@@ -274,7 +274,6 @@
     </dependency>
 
     <!--redis配置-->
-
     <dependency>
       <groupId>redis.clients</groupId>
       <artifactId>jedis</artifactId>
@@ -299,6 +298,13 @@
       <groupId>com.googlecode.usc</groupId>
       <artifactId>jdbcdslog</artifactId>
       <version>1.0.6.2</version>
+    </dependency>
+
+    <!--简化时间处理-->
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.9.4</version>
     </dependency>
 
   </dependencies>
