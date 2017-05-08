@@ -66,8 +66,9 @@ public class WeixinController {
     @RequestMapping("auth")
     public void auth(HttpServletResponse resp){
         try {
-            AuthSupport.oAuthCode(resp);
-        } catch (UnsupportedEncodingException e) {
+            String url = AuthSupport.oAuthCode();
+            resp.sendRedirect(url);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

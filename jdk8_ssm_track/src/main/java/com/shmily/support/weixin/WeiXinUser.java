@@ -8,7 +8,7 @@ public class WeiXinUser {
 
     private String nickname;
 
-    private String sex;
+    private Integer sex;
 
     private String province;
 
@@ -25,7 +25,7 @@ public class WeiXinUser {
     public WeiXinUser() {
     }
 
-    public WeiXinUser(String openId, String nickname, String sex, String province, String city, String country, String headimgurl) {
+    public WeiXinUser(String openId, String nickname, Integer sex, String province, String city, String country, String headimgurl) {
         this.openId = openId;
         this.nickname = nickname;
         this.sex = sex;
@@ -35,7 +35,18 @@ public class WeiXinUser {
         this.headimgurl = headimgurl;
     }
 
-    public WeiXinUser(String openId, String nickname, String sex, String province, String city, String country, String headimgurl, String[] privilege, String unionid) {
+    public WeiXinUser(String openId, String nickname, Integer sex, String province, String city, String country, String headimgurl, String[] privilege) {
+        this.openId = openId;
+        this.nickname = nickname;
+        this.sex = sex;
+        this.province = province;
+        this.city = city;
+        this.country = country;
+        this.headimgurl = headimgurl;
+        this.privilege = privilege;
+    }
+
+    public WeiXinUser(String openId, String nickname, Integer sex, String province, String city, String country, String headimgurl, String[] privilege, String unionid) {
         this.openId = openId;
         this.nickname = nickname;
         this.sex = sex;
@@ -63,11 +74,11 @@ public class WeiXinUser {
         this.nickname = nickname;
     }
 
-    public String getSex() {
+    public Integer getSex() {
         return sex;
     }
 
-    public void setSex(String sex) {
+    public void setSex(Integer sex) {
         this.sex = sex;
     }
 

@@ -3,17 +3,13 @@ package com.shmily.support.weixin;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.shmily.util.HttpUtil;
-import org.apache.commons.codec.net.URLCodec;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
-import java.util.List;
 
 /**
  * Created by wuxubiao on 2017/5/8.
@@ -27,27 +23,28 @@ public class AuthSupport {
 
     /**
      * 用户授权
-     * @param resp
      */
-    public static void oAuthCode(HttpServletResponse resp) throws UnsupportedEncodingException {
-        PrintWriter out = null;
+    public static String oAuthCode() throws UnsupportedEncodingException {
+        /*PrintWriter out = null;
         try {
             out = resp.getWriter();
         }catch (IOException e){
             log.error("获取输出流失败",e);
-        }
-        String redirect_uri = java.net.URLDecoder.decode("http://wxb.tunnel.qydev.com/getCode","UTF-8");
+        }*/
+        String redirect_uri = java.net.URLEncoder.encode("http://wxb.tunnel.qydev.com/ssm/getCode","UTF-8");
+        log.info("编码后的回调地址为：{}",redirect_uri);
         String url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + WeiXin.APPID
                 + "&redirect_uri=" + redirect_uri
                 + "&response_type=code"
-                + "&scope=snsapi_userinfo "
+                + "&scope=snsapi_userinfo"
                 + "&state=STATE#wechat_redirect";
 
-        try {
+        /*try {
             String result = HttpUtil.get(url);
         } catch (IOException e) {
             log.error("用户授权请求失败，失败原因:{}",e.getMessage(),e);
-        }
+        }*/
+        return url;
     }
 
     /**
@@ -62,7 +59,7 @@ public class AuthSupport {
         }
         //用户同意授权
         String requestUrl = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" + WeiXin.APPID
-                + "&secret=SECRET" + WeiXin.APPSECRET
+                + "&secret=" + WeiXin.APPSECRET
                 + "&code=" + code
                 + "&grant_type=authorization_code";
 
@@ -80,6 +77,9 @@ public class AuthSupport {
         AuthSupport.openid = jsb.getString("openid");
     }
 
+    /**
+     * 获取用户信息
+     */
     public static void weiXinUserInfo(){
         String requestUrl = "https://api.weixin.qq.com/sns/userinfo?access_token=" + AuthSupport.access_token
                 + "&openid=" + AuthSupport.openid
@@ -94,7 +94,7 @@ public class AuthSupport {
         }
 
         //JSONObject jsb = String2JsonObject(result);
-        List<WeiXinUser> weiXinUser = JSONObject.parseArray(result,WeiXinUser.class);
+        WeiXinUser weiXinUser = JSONObject.parseObject(result,WeiXinUser.class);
 
         log.info("微信用户结果解析："+JSON.toJSONString(weiXinUser));
 
