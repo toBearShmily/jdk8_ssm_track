@@ -1,0 +1,139 @@
+2017-05-08 15:47:43.559 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-05-08 15:47:43.630 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-05-08 15:47:43.632 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://zsbm.jielanwx.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-05-08 15:47:43.694 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://zsbm.jielanwx.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-05-08 15:47:43.697 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://zsbm.jielanwx.com:80
+2017-05-08 15:47:43.722 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connecting to zsbm.jielanwx.com/121.199.251.19:80
+2017-05-08 15:47:43.754 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.85:52025<->121.199.251.19:80
+2017-05-08 15:47:43.755 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /allUser/1/5 HTTP/1.1
+2017-05-08 15:47:43.755 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-05-08 15:47:43.769 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-05-08 15:47:43.783 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /allUser/1/5 HTTP/1.1
+2017-05-08 15:47:43.783 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: zsbm.jielanwx.com
+2017-05-08 15:47:43.783 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /allUser/1/5 HTTP/1.1[\r][\n]"
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: zsbm.jielanwx.com[\r][\n]"
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)[\r][\n]"
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-05-08 15:47:43.784 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2017-05-08 15:48:43.788 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2017-05-08 15:48:43.788 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.6.2[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 08 May 2017 07:48:56 GMT[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 182[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2017-05-08 15:48:43.789 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<body bgcolor="white">[\r][\n]"
+2017-05-08 15:48:43.790 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2017-05-08 15:48:43.790 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<hr><center>nginx/1.6.2</center>[\r][\n]"
+2017-05-08 15:48:43.790 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "</body>[\r][\n]"
+2017-05-08 15:48:43.790 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+2017-05-08 15:48:43.794 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 504 Gateway Time-out
+2017-05-08 15:48:43.794 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Server: nginx/1.6.2
+2017-05-08 15:48:43.794 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Mon, 08 May 2017 07:48:56 GMT
+2017-05-08 15:48:43.795 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: text/html
+2017-05-08 15:48:43.795 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 182
+2017-05-08 15:48:43.795 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+2017-05-08 15:48:43.832 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2017-05-08 15:48:43.872 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://zsbm.jielanwx.com:80] can be kept alive indefinitely
+2017-05-08 15:48:43.872 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://zsbm.jielanwx.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-05-08 15:53:48.821 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-05-08 15:53:48.841 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-05-08 15:53:48.842 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-05-08 15:53:48.865 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-05-08 15:53:48.868 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://huiqian.yidianyanglao.com:80
+2017-05-08 15:53:48.884 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connecting to huiqian.yidianyanglao.com/118.178.154.169:80
+2017-05-08 15:53:48.892 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.85:52213<->118.178.154.169:80
+2017-05-08 15:53:48.893 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /tologin HTTP/1.1
+2017-05-08 15:53:48.893 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-05-08 15:53:48.894 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-05-08 15:53:48.897 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /tologin HTTP/1.1
+2017-05-08 15:53:48.897 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: huiqian.yidianyanglao.com
+2017-05-08 15:53:48.897 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /tologin HTTP/1.1[\r][\n]"
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: huiqian.yidianyanglao.com[\r][\n]"
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)[\r][\n]"
+2017-05-08 15:53:48.898 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-05-08 15:53:48.899 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 08 May 2017 07:54:01 GMT[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 219[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+2017-05-08 15:53:48.905 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<head><title>404 Not Found</title></head>[\r][\n]"
+2017-05-08 15:53:48.906 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<body bgcolor="white">[\r][\n]"
+2017-05-08 15:53:48.906 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<h1>404 Not Found</h1>[\r][\n]"
+2017-05-08 15:53:48.906 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "<p>The requested URL was not found on this server.</body>[\r][\n]"
+2017-05-08 15:53:48.906 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+2017-05-08 15:53:48.910 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 404 Not Found
+2017-05-08 15:53:48.910 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Mon, 08 May 2017 07:54:01 GMT
+2017-05-08 15:53:48.910 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: text/html
+2017-05-08 15:53:48.910 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 219
+2017-05-08 15:53:48.910 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+2017-05-08 15:53:48.921 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2017-05-08 15:53:48.928 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://huiqian.yidianyanglao.com:80] can be kept alive indefinitely
+2017-05-08 15:53:48.929 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-05-08 15:56:34.236 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-05-08 15:56:34.255 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-05-08 15:56:34.256 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-05-08 15:56:34.281 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-05-08 15:56:34.284 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://huiqian.yidianyanglao.com:80
+2017-05-08 15:56:34.288 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connecting to huiqian.yidianyanglao.com/118.178.154.169:80
+2017-05-08 15:56:34.296 [main] DEBUG o.a.h.i.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.18.85:52313<->118.178.154.169:80
+2017-05-08 15:56:34.296 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /hq/tologin HTTP/1.1
+2017-05-08 15:56:34.296 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-05-08 15:56:34.316 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-05-08 15:56:34.319 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /hq/tologin HTTP/1.1
+2017-05-08 15:56:34.319 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: huiqian.yidianyanglao.com
+2017-05-08 15:56:34.319 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+2017-05-08 15:56:34.319 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /hq/tologin HTTP/1.1[\r][\n]"
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: huiqian.yidianyanglao.com[\r][\n]"
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_45)[\r][\n]"
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-05-08 15:56:34.320 [main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 08 May 2017 07:56:47 GMT[\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-05-08 15:56:34.350 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Allow-Methods: POST,GET,PUT,OPTIONS[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: SERVERID=d63403926e6db5978257401cf9fbef5e|1494230207|1494230207;Path=/[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "6b[\r][\n]"
+2017-05-08 15:56:34.351 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa][0xe6]RPP[0xca]M-ITR[0xb0]R[0xa8][0x6]r[0x80][0xdc][0xe2][0xd2][0xe4][0xe4][0xd4][0xe2]b[0x90]HZbNq[0xaa][0xe]D8[0x17]([0x96][0x98][0x9e][\n]"
+2017-05-08 15:56:34.352 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x12]VJ-*[0xca]/R[0x2][0x8a][0xd7][0x82]$[0x95]R[0x12]Q[0xc](J-qI-N[0x6][0xab][0xcc]/H[0xcd][0xcb]Ly[0xb2][0xa3][0xf7]i[0xff][0xfa]';v=_[0xb9][0xb][0xac][0x8d][0xab][0x16][0x0][0x0][0x0][0xff][0xff][\r][\n]"
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Mon, 08 May 2017 07:56:47 GMT
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+2017-05-08 15:56:34.359 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Vary: Accept-Encoding
+2017-05-08 15:56:34.360 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Credentials: true
+2017-05-08 15:56:34.360 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Allow-Methods: POST,GET,PUT,OPTIONS
+2017-05-08 15:56:34.360 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Set-Cookie: SERVERID=d63403926e6db5978257401cf9fbef5e|1494230207|1494230207;Path=/
+2017-05-08 15:56:34.360 [main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Encoding: gzip
+2017-05-08 15:56:34.376 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2017-05-08 15:56:34.383 [main] DEBUG o.a.http.client.protocol.ResponseProcessCookies - Cookie accepted [SERVERID="d63403926e6db5978257401cf9fbef5e|1494230207|1494230207", version:0, domain:huiqian.yidianyanglao.com, path:/, expiry:null]
+2017-05-08 15:56:34.399 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "a[\r][\n]"
+2017-05-08 15:56:34.399 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x3][0x0]&lv[0xc1]z[0x0][0x0][0x0][\r][\n]"
+2017-05-08 15:56:34.400 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2017-05-08 15:56:34.400 [main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2017-05-08 15:56:34.408 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://huiqian.yidianyanglao.com:80] can be kept alive indefinitely
+2017-05-08 15:56:34.409 [main] DEBUG o.a.h.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://huiqian.yidianyanglao.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]

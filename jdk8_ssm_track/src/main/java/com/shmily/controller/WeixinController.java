@@ -1,7 +1,9 @@
 package com.shmily.controller;
 
+import com.shmily.support.weixin.AuthSupport;
 import com.shmily.support.weixin.SecurityKit;
 import com.shmily.support.weixin.WeiXin;
+import com.shmily.util.HttpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -11,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
 /**
@@ -59,4 +62,22 @@ public class WeixinController {
             out.println(echostr);
         }
     }
+
+    @RequestMapping("auth")
+    public void auth(HttpServletResponse resp){
+        try {
+            AuthSupport.oAuthCode(resp);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @RequestMapping("getCode")
+    public void getCode(HttpServletRequest req, HttpServletResponse resp){
+        String code = req.getParameter("code");
+        AuthSupport.getCode(code, resp);
+
+        AuthSupport.weiXinUserInfo();
+    }
+
 }

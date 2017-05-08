@@ -2,9 +2,14 @@ package test;
 
 import com.shmily.support.weixin.WeiXin;
 import com.shmily.support.weixin.WeiXin_httpUtil;
+import com.shmily.util.WeiXinHttpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -49,5 +54,32 @@ public class Test {
                 System.out.println(current +"~"+(begin+(count*i)));
                 current = begin+(count*i)+1;
             }
+    }
+
+
+    @org.junit.Test
+    public void streamTest(){
+        FileInputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream("C:\\Users\\Administrator\\Desktop\\windows_386\\8090.bat");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        byte[] buffer = new byte[1024];
+        int len;
+        try {
+            while((len = inputStream.read(buffer)) != -1){
+                System.out.println(new String(buffer));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @org.junit.Test
+    public void testPost(){
+        String url = "http://huiqian.yidianyanglao.com/hq/tologin";
+        String result = WeiXinHttpUtil.sendGet(url);
     }
 }

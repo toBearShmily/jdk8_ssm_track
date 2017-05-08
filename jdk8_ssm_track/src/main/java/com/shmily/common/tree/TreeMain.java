@@ -52,12 +52,5 @@ public class TreeMain {
 
         System.out.println("=============================================================");
 
-        StopWatch sw = new StopWatch();
-        sw.start();
-
-        TimeUnit.SECONDS.sleep(new Random().nextInt(10));
-
-        sw.stop();
-        System.out.println(sw.getTotalTimeMillis());
     }
 }
