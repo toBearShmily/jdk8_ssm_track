@@ -12,7 +12,7 @@ public class WeiXin {
     public static final String DY_APPID = "wxdb9dbf16a1c1c99c";
     public static final String DY_APPSECRET = "438b4d18008ff1c7b3bfb5a1abf872fa";
 
-    public static final String ACCESS_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid="+APPID+"&secret="+APPSECRET;
+    public static final String ACCESS_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid="+DY_APPID+"&secret="+DY_APPSECRET;
 
     public static final String TOKEN = "wuxubiao";
 }
