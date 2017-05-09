@@ -33,7 +33,7 @@ public class AuthSupport {
         }*/
         String redirect_uri = java.net.URLEncoder.encode("http://wxb.tunnel.qydev.com/ssm/getCode","UTF-8");
         log.info("编码后的回调地址为：{}",redirect_uri);
-        String url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + WeiXin.APPID
+        String url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + WeiXin.DY_APPID
                 + "&redirect_uri=" + redirect_uri
                 + "&response_type=code"
                 + "&scope=snsapi_userinfo"
@@ -58,8 +58,8 @@ public class AuthSupport {
             return ;
         }
         //用户同意授权
-        String requestUrl = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" + WeiXin.APPID
-                + "&secret=" + WeiXin.APPSECRET
+        String requestUrl = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" + WeiXin.DY_APPID
+                + "&secret=" + WeiXin.DY_APPSECRET
                 + "&code=" + code
                 + "&grant_type=authorization_code";
 
