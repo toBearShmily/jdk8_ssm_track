@@ -2,11 +2,11 @@ package com.shmily.controller;
 
 import com.shmily.support.weixin.AuthSupport;
 import com.shmily.support.weixin.SecurityKit;
-import com.shmily.support.weixin.TextMessage;
+import com.shmily.support.weixin.entity.ImageMessage;
+import com.shmily.support.weixin.entity.TextMessage;
 import com.shmily.support.weixin.WeiXin;
 import com.shmily.util.weiXin.MessageUtil;
 import org.dom4j.DocumentException;
-import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -19,7 +19,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.Map;
 
 /**
@@ -92,21 +91,35 @@ public class WeixinController {
             String Content = map.get("Content");
 
             TextMessage textMessage = null;
-            if("text".equals(MsgType)){
-                textMessage = MessageUtil.messageResult(FromUserName,ToUserName,Content);
+            String message = null;
+
+            if(WeiXin.MESSAGE_TEXT.equals(MsgType)){
+                textMessage = MessageUtil.textMessageResult(FromUserName,ToUserName);
                 if (Content.equals("1")) {
                     textMessage.setContent("你发的是1!!!");
+                    message = MessageUtil.textMessageToXml(textMessage);
                 }else if (Content.equals("2")) {
                     textMessage.setContent("你发的是2!!!");
+                    message = MessageUtil.textMessageToXml(textMessage);
+                }else if (Content.equals("img")) {
+                    //图文消息
+                    ImageMessage imageMessage = MessageUtil.imageMessageResult(FromUserName,ToUserName);
+                    message = MessageUtil.textMessageToXml(imageMessage);
                 }
-            }else if("event".equals(MsgType)){
-                if(map.get("Event").equals("subscribe")){
+
+            }else if(WeiXin.EVENT_PUSH.equals(MsgType)){
+                if(map.get("Event").equals(WeiXin.EVENT_subscribe)){
                     //关注事件
-                    textMessage = MessageUtil.messageResult(FromUserName,ToUserName,Content);
+                    textMessage = MessageUtil.textMessageResult(FromUserName,ToUserName);
                     textMessage.setContent("欢迎关注我的公众号~");
+                }else if(map.get("Event").equals(WeiXin.EVENT_unsubscribe)){
+                    //取消关注事件
+                    textMessage = MessageUtil.textMessageResult(FromUserName,ToUserName);
+                    textMessage.setContent("谢谢您的支持,我会继续努力~");
                 }
+                message = MessageUtil.textMessageToXml(textMessage);
             }
-            String message = MessageUtil.textMessageToXml(textMessage);
+
             log.info("result message : {}",message);
             out.print(message);
             out.flush();
