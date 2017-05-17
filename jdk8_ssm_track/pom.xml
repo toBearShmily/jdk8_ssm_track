@@ -327,6 +327,13 @@
       <version>1.4.7</version>
     </dependency>
 
+    <!--jpa使用，包括上面的spring-data-jpa-->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>5.2.10.Final</version>
+    </dependency>
+
   </dependencies>
 
   <build>

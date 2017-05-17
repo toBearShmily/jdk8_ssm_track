@@ -44,9 +44,9 @@
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceMethods"/>
     </aop:config>
 
-        <!--(事务管理)transaction manager,use JtaTransactionManager for global tx-->
-        <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-            <property name="dataSource" ref="proxyDataSource"/>
-        </bean>
+    <!--(事务管理)transaction manager,use JtaTransactionManager for global tx-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="proxyDataSource"/>
+    </bean>
 
     </beans>

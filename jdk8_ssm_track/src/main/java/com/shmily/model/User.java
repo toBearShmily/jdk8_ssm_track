@@ -1,10 +1,19 @@
 package com.shmily.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
+@Entity
+@Table(name = "user")
 public class User implements Serializable{
+    @GeneratedValue
+    @Id
     private Integer id;
 
     @Pattern(regexp="^[^><&#]{4,50}$",message="{username.pattern}")
