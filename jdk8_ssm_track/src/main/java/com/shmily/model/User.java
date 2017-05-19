@@ -2,10 +2,7 @@ package com.shmily.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
@@ -18,17 +15,23 @@ public class User implements Serializable{
 
     @Pattern(regexp="^[^><&#]{4,50}$",message="{username.pattern}")
     @NotEmpty(message="{username.not.empty}")
+    @Column(name = "nick_name")
     private String nickName;
 
     @NotEmpty(message = "{password.not.null}")
+    @Column(name = "password")
     private String password;
 
+    @Column(name = "role_id")
     private Integer roleId;
 
+    @Column(name = "sex")
     private Integer sex;
 
+    @Column(name = "img")
     private String img;
 
+    @Column(name = "is_proxy")
     private Integer isProxy;
 
     public User() {

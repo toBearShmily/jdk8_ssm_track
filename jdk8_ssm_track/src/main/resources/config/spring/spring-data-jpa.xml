@@ -27,7 +27,7 @@
                     <!--名字策略-->
                     <prop key="hibernate.ejb.naming_strategy">org.hibernate.cfg.ImprovedNamingStrategy</prop>
                     <!--数据库方言-->
-                    <prop key="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</prop>
+                    <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
                     <!--显示sql-->
                     <prop key="hibernate.show_sql">true</prop>
                     <!--格式化sql-->

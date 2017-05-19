@@ -299,7 +299,7 @@
       <version>4.5.2</version>
     </dependency>
 
-    <!--jdbcdslog用于实现showsql的时候直接拼接上参数，以往都是sql一行，参数一行-->
+    <!--jdbcdslog用于实现showsql的时候直接拼接上参数，以往都是sql一行，参数一行,即proxyDataSource，spring-mybatis中的代理datasource-->
     <dependency>
       <groupId>com.googlecode.usc</groupId>
       <artifactId>jdbcdslog</artifactId>
@@ -334,6 +334,11 @@
       <version>5.2.10.Final</version>
     </dependency>
 
+    <!--<dependency>
+      <groupId>com.alibaba.pay</groupId>
+      <artifactId>alipay-sdk-java-20170511115418</artifactId>
+      <version>1.0.0</version>
+    </dependency>-->
   </dependencies>
 
   <build>

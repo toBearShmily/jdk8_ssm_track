@@ -29,7 +29,20 @@ public class WxbTest {
         //获取该类下的方法是否有@Prams这个注解，有则获取
         Annotation annotation = method.getAnnotation(Wxb.class);
         if(annotation instanceof Wxb){//如果有@Wxb标识则取去获取方法参数注解的值
+
+
+
+
             Annotation[][] annotations = method.getParameterAnnotations();
+            for(int i=0 ; i < annotations.length ; i++){
+                for(int j = 0; j < annotations[i].length ; j++){
+                    System.out.println(annotations[i][j]);
+                }
+            }
+            if(annotations[0][0] instanceof  Prams){
+                System.out.println("参数包含prams注解！！！");
+            }
+
             Prams p = (Prams) annotations[0][0];
             val = p.value();
             System.out.println(val);
