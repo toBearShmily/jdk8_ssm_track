@@ -1,8 +1,16 @@
 package com.shmily.support.aop;
 
+import com.alibaba.fastjson.JSON;
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.Ordered;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by Administrator on 2017/3/23.
@@ -10,12 +18,31 @@ import org.springframework.core.Ordered;
 @Aspect
 public class MyAspectj_logback implements Ordered {
 
+    private static Logger log = LoggerFactory.getLogger(MyAspectj_logback.class);
+
     /**
      * 前置通知
      */
     @Before("execution(* com.shmily.controller.*Controller.*(..)))")
-    public void before(){
+    public void before(JoinPoint joinPoint){
         System.out.println("前置通知.....");
+        ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpServletRequest request = attributes.getRequest();
+
+        //url
+        log.info("url:{}",request.getRequestURL());
+
+        //method
+        log.info("method:{}",request.getMethod());
+
+        //ip
+        log.info("ip:{}",request.getRemoteAddr());
+
+        //类方法
+        log.info("class_method:{}",joinPoint.getSignature().getDeclaringTypeName() +"."+ joinPoint.getSignature().getName());
+
+        //参数
+        log.info("prams:{}", JSON.toJSONString(joinPoint.getArgs()));
     }
 
     /**

@@ -183,4 +183,48 @@ public class Files_Helper {
     public static String getRelativePath(String filePath, String suffix) {
         return filePath + File.separator + getDataPath() + File.separator + getUUIDName(suffix);//example:/files/Upload/20160912/
     }
+
+    /**
+     *存储日志信息
+     * @return
+     */
+    public static boolean uploadLog(String context){
+        String outPath = null;
+        String savePath = "E:"+ File.separator+"Eclipse"
+                +File.separator+"日志系统"
+                +File.separator;
+
+        outPath = savePath+ UUID.randomUUID()+".txt";
+        BufferedOutputStream bos = null;
+        FileOutputStream fos = null;
+        try {
+            //输出到指定路径
+            fos = new FileOutputStream(outPath);
+            bos = new BufferedOutputStream(fos);
+            bos.write(context.getBytes());
+            return true;
+        } catch (IOException e){
+            log.error("上传日志文件Io异常！！！");
+        }finally {
+            if(fos != null){
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    log.error("上传日志文件Io异常！！！");
+                }
+            }
+            if(bos != null){
+                try {
+                    bos.close();
+                } catch (IOException e) {
+                    log.error("上传日志文件Io异常！！！");
+                }
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Files_Helper.uploadLog("safadgsdhfdhfdhfdh");
+    }
 }

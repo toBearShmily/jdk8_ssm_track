@@ -1,5 +1,7 @@
-package com.shmily.support.aop;
+package com.shmily.Exception;
 
+import com.alibaba.fastjson.JSON;
+import com.shmily.util.Files_Helper;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -9,6 +11,7 @@ import java.util.Date;
 
 /**
  * 异常监测切面类
+ * 采用记录方式为记入文本
  * Created by Administrator on 2017/3/24.
  */
 
@@ -32,8 +35,8 @@ public class ExceptionMonitor {
             info.setMethodName(thisJoinPoint.getSignature().getName());
             info.setLogTime(new Date());
             info.setMessage(e.toString());
-            //上传日志系统,自行完善
-            //ExceptionReportUtils.report(info);
+            //上传日志系统,自行完善(输出为文件)
+            Files_Helper.uploadLog(JSON.toJSONString(info));
             return null;
         }
     }

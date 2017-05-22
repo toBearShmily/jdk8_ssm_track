@@ -2,6 +2,7 @@ package com.shmily.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.shmily.common.Response;
+import com.shmily.common.StateEnum;
 import com.shmily.common.ValidateJson;
 import com.shmily.model.User;
 import com.shmily.service.UserService;
@@ -52,7 +53,7 @@ public class UserController {
         System.out.println(user.getNickName());
         Map<String,String> map = ValidateJson.getJsonString(bindingResult);
         if(null != map){//校验参数失败
-            response.failure(map);
+            response.failure(StateEnum.PRAMS_ERROR,map);
             log.error("参数校验失败,失败信息："+map.get("info0"));
         }else{
             int result = userService.saveUser(user);
@@ -86,7 +87,7 @@ public class UserController {
                 isCommont=true;
             response.success(isCommont);
         }else{
-            response.failure("参数验证不通过！！！");
+            response.failure(StateEnum.PRAMS_ERROR);
         }
         return response;
     }

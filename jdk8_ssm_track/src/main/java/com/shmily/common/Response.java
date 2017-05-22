@@ -5,10 +5,7 @@ package com.shmily.common;
  * Created by Administrator on 2017/1/3.
  */
 public class Response {
-    private static final String OK = "ok";
-    private static final String ERROR = "error";
-
-    private Meta meta;
+    private StateEnum stateEnum;
     private Object data;
 
     /**
@@ -16,7 +13,7 @@ public class Response {
      * @return
      */
     public Response success() {
-        this.meta = new Meta(true,OK);
+        this.stateEnum = StateEnum.SUCCESS;
         return this;
     }
 
@@ -26,64 +23,59 @@ public class Response {
      * @return
      */
     public Response success(Object data) {
-        this.meta = new Meta(true,OK);
+        this.stateEnum = StateEnum.SUCCESS;
+        this.data = data;
+        return this;
+    }
+
+    /**
+     * 成功返回自定义信息
+     * @param retCode
+     * @param retDesc
+     * @param data
+     * @return
+     */
+    public Response success(String retCode, String retDesc, Object data) {
         this.data = data;
         return this;
     }
 
     /**
      * 返回异常(无说明)
+     * 无说明的情况下，默认系统异常
      * @return
      */
     public  Response failure(){
-        this.meta = new Meta(false,ERROR);
+        this.stateEnum = StateEnum.SYS_ERROR;
         return this;
     }
 
     /**
      * 返回异常说明
-     * @param message
+     * @param stateEnum
      * @return
      */
-    public Response failure(String message){
-        this.meta = new Meta(false,message);
+    public Response failure(StateEnum stateEnum){
+        this.stateEnum = stateEnum;
         return this;
     }
 
-    public Response failure(Object data){
-        this.meta = new Meta(false,ERROR);
+    /**
+     * 返回异常说明,并带有数据
+     * @param data
+     * @return
+     */
+    public Response failure(StateEnum stateEnum, Object data){
+        this.stateEnum = stateEnum;
         this.data = data;
         return this;
     }
 
-    public Meta getMeta() {
-        return meta;
+    public StateEnum getStateEnum() {
+        return stateEnum;
     }
 
     public Object getData() {
         return data;
-    }
-
-    public class Meta {
-
-        private boolean success;
-        private String message;
-
-        public Meta(boolean success) {
-            this.success = success;
-        }
-
-        public Meta(boolean success, String message) {
-            this.success = success;
-            this.message = message;
-        }
-
-        public boolean isSuccess() {
-            return success;
-        }
-
-        public String getMessage() {
-            return message;
-        }
     }
 }
